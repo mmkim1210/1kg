@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints
+data_snparrays
+*vcf.gz
+*1kg.phase3.v5a.bed
+*1kg.phase3.v5a.bim
+*1kg.phase3.v5a.fam
+scripts

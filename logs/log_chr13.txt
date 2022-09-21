@@ -1,0 +1,259 @@
+################################
+####### processing chr13 #######
+################################
+ 
+### subsetting to AFR samples ###
+sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+ 
+filtering SNPs with maf > 0.05
+dim for AFR file (before maf > 0.05)
+(661, 1113876)
+dim for AFR file (after maf > 0.05)
+(661, 351640)
+ 
+filtering SNPs with mac > 1
+number of SNPs with mac > 1 (will be kept): 351640
+dim for AFR file (after maf > 0.05, mac > 1)
+(661, 351640)
+cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+cf: dim original - (2504, 1113876)
+ 
+SnpData(people: 661, snps: 351640,
+snp_info: 
+ Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
+     │ String      String           Float64           Int64     String   String
+─────┼───────────────────────────────────────────────────────────────────────────
+   1 │ 13          13:19020095:C:T               0.0  19020095  T        C
+   2 │ 13          13:19020627:A:G               0.0  19020627  G        A
+   3 │ 13          13:19020776:T:G               0.0  19020776  G        T
+   4 │ 13          13:19020838:G:T               0.0  19020838  T        G
+   5 │ 13          13:19020857:G:A               0.0  19020857  A        G
+   6 │ 13          13:19020890:G:A               0.0  19020890  A        G
+…,
+person_info: 
+ Row │ fid        iid        father     mother     sex        phenotype
+     │ Abstract…  Abstract…  Abstract…  Abstract…  Abstract…  Abstract…
+─────┼──────────────────────────────────────────────────────────────────
+   1 │ 0          HG01879    0          0          0          -9
+   2 │ 0          HG01880    0          0          0          -9
+   3 │ 0          HG01882    0          0          0          -9
+   4 │ 0          HG01883    0          0          0          -9
+   5 │ 0          HG01885    0          0          0          -9
+   6 │ 0          HG01886    0          0          0          -9
+…,
+srcbed: data/kgp.chr13.AFR.maf005.mac1.bed
+srcbim: data/kgp.chr13.AFR.maf005.mac1.bim
+srcfam: data/kgp.chr13.AFR.maf005.mac1.fam
+)
+ 
+ 
+files to be removed: 
+8
+Any["data/kgp.chr13.AFR.bed", "data/kgp.chr13.AFR.bim", "data/kgp.chr13.AFR.fam", "data/kgp.chr13.AFR.maf005.bed", "data/kgp.chr13.AFR.maf005.bim", "data/kgp.chr13.AFR.maf005.fam", "data/kgp.chr13.AFR.maf005.mac1.fam", "data/kgp.chr13.AFR.maf005.mac1.bim"]
+ 
+ 
+ 
+### subsetting to AMR samples ###
+sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+ 
+filtering SNPs with maf > 0.05
+dim for AMR file (before maf > 0.05)
+(347, 1113876)
+dim for AMR file (after maf > 0.05)
+(347, 265124)
+ 
+filtering SNPs with mac > 1
+number of SNPs with mac > 1 (will be kept): 265124
+dim for AMR file (after maf > 0.05, mac > 1)
+(347, 265124)
+cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+cf: dim original - (2504, 1113876)
+ 
+SnpData(people: 347, snps: 265124,
+snp_info: 
+ Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
+     │ String      String           Float64           Int64     String   String
+─────┼───────────────────────────────────────────────────────────────────────────
+   1 │ 13          13:19020627:A:G               0.0  19020627  G        A
+   2 │ 13          13:19020776:T:G               0.0  19020776  G        T
+   3 │ 13          13:19020917:G:A               0.0  19020917  A        G
+   4 │ 13          13:19021019:A:C               0.0  19021019  C        A
+   5 │ 13          13:19021020:G:A               0.0  19021020  A        G
+   6 │ 13          13:19021050:G:A               0.0  19021050  A        G
+…,
+person_info: 
+ Row │ fid        iid        father     mother     sex        phenotype
+     │ Abstract…  Abstract…  Abstract…  Abstract…  Abstract…  Abstract…
+─────┼──────────────────────────────────────────────────────────────────
+   1 │ 0          HG00551    0          0          0          -9
+   2 │ 0          HG00553    0          0          0          -9
+   3 │ 0          HG00554    0          0          0          -9
+   4 │ 0          HG00637    0          0          0          -9
+   5 │ 0          HG00638    0          0          0          -9
+   6 │ 0          HG00640    0          0          0          -9
+…,
+srcbed: data/kgp.chr13.AMR.maf005.mac1.bed
+srcbim: data/kgp.chr13.AMR.maf005.mac1.bim
+srcfam: data/kgp.chr13.AMR.maf005.mac1.fam
+)
+ 
+ 
+files to be removed: 
+8
+Any["data/kgp.chr13.AMR.bed", "data/kgp.chr13.AMR.bim", "data/kgp.chr13.AMR.fam", "data/kgp.chr13.AMR.maf005.bed", "data/kgp.chr13.AMR.maf005.bim", "data/kgp.chr13.AMR.maf005.fam", "data/kgp.chr13.AMR.maf005.mac1.fam", "data/kgp.chr13.AMR.maf005.mac1.bim"]
+ 
+ 
+ 
+### subsetting to EAS samples ###
+sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+ 
+filtering SNPs with maf > 0.05
+dim for EAS file (before maf > 0.05)
+(504, 1113876)
+dim for EAS file (after maf > 0.05)
+(504, 235582)
+ 
+filtering SNPs with mac > 1
+number of SNPs with mac > 1 (will be kept): 235582
+dim for EAS file (after maf > 0.05, mac > 1)
+(504, 235582)
+cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+cf: dim original - (2504, 1113876)
+ 
+SnpData(people: 504, snps: 235582,
+snp_info: 
+ Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
+     │ String      String           Float64           Int64     String   String
+─────┼───────────────────────────────────────────────────────────────────────────
+   1 │ 13          13:19020627:A:G               0.0  19020627  G        A
+   2 │ 13          13:19020776:T:G               0.0  19020776  G        T
+   3 │ 13          13:19020917:G:A               0.0  19020917  A        G
+   4 │ 13          13:19021019:A:C               0.0  19021019  C        A
+   5 │ 13          13:19021020:G:A               0.0  19021020  A        G
+   6 │ 13          13:19021050:G:A               0.0  19021050  A        G
+…,
+person_info: 
+ Row │ fid        iid        father     mother     sex        phenotype
+     │ Abstract…  Abstract…  Abstract…  Abstract…  Abstract…  Abstract…
+─────┼──────────────────────────────────────────────────────────────────
+   1 │ 0          HG00403    0          0          0          -9
+   2 │ 0          HG00404    0          0          0          -9
+   3 │ 0          HG00406    0          0          0          -9
+   4 │ 0          HG00407    0          0          0          -9
+   5 │ 0          HG00409    0          0          0          -9
+   6 │ 0          HG00410    0          0          0          -9
+…,
+srcbed: data/kgp.chr13.EAS.maf005.mac1.bed
+srcbim: data/kgp.chr13.EAS.maf005.mac1.bim
+srcfam: data/kgp.chr13.EAS.maf005.mac1.fam
+)
+ 
+ 
+files to be removed: 
+8
+Any["data/kgp.chr13.EAS.bed", "data/kgp.chr13.EAS.bim", "data/kgp.chr13.EAS.fam", "data/kgp.chr13.EAS.maf005.bed", "data/kgp.chr13.EAS.maf005.bim", "data/kgp.chr13.EAS.maf005.fam", "data/kgp.chr13.EAS.maf005.mac1.fam", "data/kgp.chr13.EAS.maf005.mac1.bim"]
+ 
+ 
+ 
+### subsetting to EUR samples ###
+sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+ 
+filtering SNPs with maf > 0.05
+dim for EUR file (before maf > 0.05)
+(503, 1113876)
+dim for EUR file (after maf > 0.05)
+(503, 259153)
+ 
+filtering SNPs with mac > 1
+number of SNPs with mac > 1 (will be kept): 259153
+dim for EUR file (after maf > 0.05, mac > 1)
+(503, 259153)
+cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+cf: dim original - (2504, 1113876)
+ 
+SnpData(people: 503, snps: 259153,
+snp_info: 
+ Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
+     │ String      String           Float64           Int64     String   String
+─────┼───────────────────────────────────────────────────────────────────────────
+   1 │ 13          13:19020095:C:T               0.0  19020095  T        C
+   2 │ 13          13:19020341:C:T               0.0  19020341  T        C
+   3 │ 13          13:19020627:A:G               0.0  19020627  G        A
+   4 │ 13          13:19020776:T:G               0.0  19020776  G        T
+   5 │ 13          13:19020917:G:A               0.0  19020917  A        G
+   6 │ 13          13:19021019:A:C               0.0  19021019  C        A
+…,
+person_info: 
+ Row │ fid        iid        father     mother     sex        phenotype
+     │ Abstract…  Abstract…  Abstract…  Abstract…  Abstract…  Abstract…
+─────┼──────────────────────────────────────────────────────────────────
+   1 │ 0          HG00096    0          0          0          -9
+   2 │ 0          HG00097    0          0          0          -9
+   3 │ 0          HG00099    0          0          0          -9
+   4 │ 0          HG00100    0          0          0          -9
+   5 │ 0          HG00101    0          0          0          -9
+   6 │ 0          HG00102    0          0          0          -9
+…,
+srcbed: data/kgp.chr13.EUR.maf005.mac1.bed
+srcbim: data/kgp.chr13.EUR.maf005.mac1.bim
+srcfam: data/kgp.chr13.EUR.maf005.mac1.fam
+)
+ 
+ 
+files to be removed: 
+8
+Any["data/kgp.chr13.EUR.bed", "data/kgp.chr13.EUR.bim", "data/kgp.chr13.EUR.fam", "data/kgp.chr13.EUR.maf005.bed", "data/kgp.chr13.EUR.maf005.bim", "data/kgp.chr13.EUR.maf005.fam", "data/kgp.chr13.EUR.maf005.mac1.fam", "data/kgp.chr13.EUR.maf005.mac1.bim"]
+ 
+ 
+ 
+### subsetting to SAS samples ###
+sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+ 
+filtering SNPs with maf > 0.05
+dim for SAS file (before maf > 0.05)
+(489, 1113876)
+dim for SAS file (after maf > 0.05)
+(489, 263986)
+ 
+filtering SNPs with mac > 1
+number of SNPs with mac > 1 (will be kept): 263986
+dim for SAS file (after maf > 0.05, mac > 1)
+(489, 263986)
+cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
+cf: dim original - (2504, 1113876)
+ 
+SnpData(people: 489, snps: 263986,
+snp_info: 
+ Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
+     │ String      String           Float64           Int64     String   String
+─────┼───────────────────────────────────────────────────────────────────────────
+   1 │ 13          13:19020627:A:G               0.0  19020627  G        A
+   2 │ 13          13:19020776:T:G               0.0  19020776  G        T
+   3 │ 13          13:19020917:G:A               0.0  19020917  A        G
+   4 │ 13          13:19021019:A:C               0.0  19021019  C        A
+   5 │ 13          13:19021020:G:A               0.0  19021020  A        G
+   6 │ 13          13:19021050:G:A               0.0  19021050  A        G
+…,
+person_info: 
+ Row │ fid        iid        father     mother     sex        phenotype
+     │ Abstract…  Abstract…  Abstract…  Abstract…  Abstract…  Abstract…
+─────┼──────────────────────────────────────────────────────────────────
+   1 │ 0          HG01583    0          0          0          -9
+   2 │ 0          HG01586    0          0          0          -9
+   3 │ 0          HG01589    0          0          0          -9
+   4 │ 0          HG01593    0          0          0          -9
+   5 │ 0          HG02490    0          0          0          -9
+   6 │ 0          HG02491    0          0          0          -9
+…,
+srcbed: data/kgp.chr13.SAS.maf005.mac1.bed
+srcbim: data/kgp.chr13.SAS.maf005.mac1.bim
+srcfam: data/kgp.chr13.SAS.maf005.mac1.fam
+)
+ 
+ 
+files to be removed: 
+8
+Any["data/kgp.chr13.SAS.bed", "data/kgp.chr13.SAS.bim", "data/kgp.chr13.SAS.fam", "data/kgp.chr13.SAS.maf005.bed", "data/kgp.chr13.SAS.maf005.bim", "data/kgp.chr13.SAS.maf005.fam", "data/kgp.chr13.SAS.maf005.mac1.fam", "data/kgp.chr13.SAS.maf005.mac1.bim"]
+ 
+ 
+all ancestry were processed for chr13
