@@ -1,8 +1,14 @@
 #!/bin/sh
 # This script will process the following steps:
-#   1. download LD reference panels from the 1000 genomes project website for each chromosome
+#   1. download LD reference panels from the 1000 genomes project website for each chromosome (phase3, GRCh37)
 #   2. convert the downloaded vcf files to plink format
 #   3. filter out duplicate SNPs and SNPs have long indels
+#
+# Software used: 
+#   1. tabix: http://www.htslib.org/doc/tabix.html
+#   2. bcftools: https://samtools.github.io/bcftools/howtos/index.html
+#   3. plink: https://www.cog-genomics.org/plink/
+#
 # The original script was written by Minsoo Kim.
 
 
@@ -28,7 +34,6 @@ done
 
 
 ### create index file for each chromosome vcf file
-# tools used: samtools(tabix, bcftools), plink
 for chr in {1..22} X; do
     # index each vcf file
     tabix -f chr$chr.1kg.phase3.v5a.vcf.gz 
