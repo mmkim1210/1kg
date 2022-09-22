@@ -7,18 +7,18 @@ sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
  
 filtering SNPs with maf > 0.05
 dim for AFR file (before maf > 0.05)
-(661, 923706)
+(661, 923701)
 dim for AFR file (after maf > 0.05)
-(661, 286573)
+(661, 286570)
  
 filtering SNPs with mac > 1
-number of SNPs with mac > 1 (will be kept): 286573
+number of SNPs with mac > 1 (will be kept): 286570
 dim for AFR file (after maf > 0.05, mac > 1)
-(661, 286573)
+(661, 286570)
 cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
-cf: dim original - (2504, 923706)
+cf: dim original - (2504, 923701)
  
-SnpData(people: 661, snps: 286573,
+SnpData(people: 661, snps: 286570,
 snp_info: 
  Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
      │ String      String           Float64           Int64     String   String
@@ -41,15 +41,15 @@ person_info:
    5 │ 0          HG01885    0          0          0          -9
    6 │ 0          HG01886    0          0          0          -9
 …,
-srcbed: data/kgp.chr15.AFR.maf005.mac1.bed
-srcbim: data/kgp.chr15.AFR.maf005.mac1.bim
-srcfam: data/kgp.chr15.AFR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr15.AFR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr15.AFR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr15.AFR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr15.AFR.bed", "data/kgp.chr15.AFR.bim", "data/kgp.chr15.AFR.fam", "data/kgp.chr15.AFR.maf005.bed", "data/kgp.chr15.AFR.maf005.bim", "data/kgp.chr15.AFR.maf005.fam", "data/kgp.chr15.AFR.maf005.mac1.fam", "data/kgp.chr15.AFR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr15.AFR.bed", "data/kgp.clean.chr15.AFR.bim", "data/kgp.clean.chr15.AFR.fam", "data/kgp.clean.chr15.AFR.maf005.bed", "data/kgp.clean.chr15.AFR.maf005.bim", "data/kgp.clean.chr15.AFR.maf005.fam", "data/kgp.clean.chr15.AFR.maf005.mac1.fam", "data/kgp.clean.chr15.AFR.maf005.mac1.bim"]
  
  
  
@@ -58,18 +58,18 @@ sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
  
 filtering SNPs with maf > 0.05
 dim for AMR file (before maf > 0.05)
-(347, 923706)
+(347, 923701)
 dim for AMR file (after maf > 0.05)
-(347, 208647)
+(347, 208644)
  
 filtering SNPs with mac > 1
-number of SNPs with mac > 1 (will be kept): 208647
+number of SNPs with mac > 1 (will be kept): 208644
 dim for AMR file (after maf > 0.05, mac > 1)
-(347, 208647)
+(347, 208644)
 cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
-cf: dim original - (2504, 923706)
+cf: dim original - (2504, 923701)
  
-SnpData(people: 347, snps: 208647,
+SnpData(people: 347, snps: 208644,
 snp_info: 
  Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
      │ String      String           Float64           Int64     String   String
@@ -92,15 +92,15 @@ person_info:
    5 │ 0          HG00638    0          0          0          -9
    6 │ 0          HG00640    0          0          0          -9
 …,
-srcbed: data/kgp.chr15.AMR.maf005.mac1.bed
-srcbim: data/kgp.chr15.AMR.maf005.mac1.bim
-srcfam: data/kgp.chr15.AMR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr15.AMR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr15.AMR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr15.AMR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr15.AMR.bed", "data/kgp.chr15.AMR.bim", "data/kgp.chr15.AMR.fam", "data/kgp.chr15.AMR.maf005.bed", "data/kgp.chr15.AMR.maf005.bim", "data/kgp.chr15.AMR.maf005.fam", "data/kgp.chr15.AMR.maf005.mac1.fam", "data/kgp.chr15.AMR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr15.AMR.bed", "data/kgp.clean.chr15.AMR.bim", "data/kgp.clean.chr15.AMR.fam", "data/kgp.clean.chr15.AMR.maf005.bed", "data/kgp.clean.chr15.AMR.maf005.bim", "data/kgp.clean.chr15.AMR.maf005.fam", "data/kgp.clean.chr15.AMR.maf005.mac1.fam", "data/kgp.clean.chr15.AMR.maf005.mac1.bim"]
  
  
  
@@ -109,18 +109,18 @@ sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
  
 filtering SNPs with maf > 0.05
 dim for EAS file (before maf > 0.05)
-(504, 923706)
+(504, 923701)
 dim for EAS file (after maf > 0.05)
-(504, 189748)
+(504, 189745)
  
 filtering SNPs with mac > 1
-number of SNPs with mac > 1 (will be kept): 189748
+number of SNPs with mac > 1 (will be kept): 189745
 dim for EAS file (after maf > 0.05, mac > 1)
-(504, 189748)
+(504, 189745)
 cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
-cf: dim original - (2504, 923706)
+cf: dim original - (2504, 923701)
  
-SnpData(people: 504, snps: 189748,
+SnpData(people: 504, snps: 189745,
 snp_info: 
  Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
      │ String      String           Float64           Int64     String   String
@@ -143,15 +143,15 @@ person_info:
    5 │ 0          HG00409    0          0          0          -9
    6 │ 0          HG00410    0          0          0          -9
 …,
-srcbed: data/kgp.chr15.EAS.maf005.mac1.bed
-srcbim: data/kgp.chr15.EAS.maf005.mac1.bim
-srcfam: data/kgp.chr15.EAS.maf005.mac1.fam
+srcbed: data/kgp.clean.chr15.EAS.maf005.mac1.bed
+srcbim: data/kgp.clean.chr15.EAS.maf005.mac1.bim
+srcfam: data/kgp.clean.chr15.EAS.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr15.EAS.bed", "data/kgp.chr15.EAS.bim", "data/kgp.chr15.EAS.fam", "data/kgp.chr15.EAS.maf005.bed", "data/kgp.chr15.EAS.maf005.bim", "data/kgp.chr15.EAS.maf005.fam", "data/kgp.chr15.EAS.maf005.mac1.fam", "data/kgp.chr15.EAS.maf005.mac1.bim"]
+Any["data/kgp.clean.chr15.EAS.bed", "data/kgp.clean.chr15.EAS.bim", "data/kgp.clean.chr15.EAS.fam", "data/kgp.clean.chr15.EAS.maf005.bed", "data/kgp.clean.chr15.EAS.maf005.bim", "data/kgp.clean.chr15.EAS.maf005.fam", "data/kgp.clean.chr15.EAS.maf005.mac1.fam", "data/kgp.clean.chr15.EAS.maf005.mac1.bim"]
  
  
  
@@ -160,18 +160,18 @@ sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
  
 filtering SNPs with maf > 0.05
 dim for EUR file (before maf > 0.05)
-(503, 923706)
+(503, 923701)
 dim for EUR file (after maf > 0.05)
-(503, 200314)
+(503, 200311)
  
 filtering SNPs with mac > 1
-number of SNPs with mac > 1 (will be kept): 200314
+number of SNPs with mac > 1 (will be kept): 200311
 dim for EUR file (after maf > 0.05, mac > 1)
-(503, 200314)
+(503, 200311)
 cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
-cf: dim original - (2504, 923706)
+cf: dim original - (2504, 923701)
  
-SnpData(people: 503, snps: 200314,
+SnpData(people: 503, snps: 200311,
 snp_info: 
  Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
      │ String      String           Float64           Int64     String   String
@@ -194,15 +194,15 @@ person_info:
    5 │ 0          HG00101    0          0          0          -9
    6 │ 0          HG00102    0          0          0          -9
 …,
-srcbed: data/kgp.chr15.EUR.maf005.mac1.bed
-srcbim: data/kgp.chr15.EUR.maf005.mac1.bim
-srcfam: data/kgp.chr15.EUR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr15.EUR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr15.EUR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr15.EUR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr15.EUR.bed", "data/kgp.chr15.EUR.bim", "data/kgp.chr15.EUR.fam", "data/kgp.chr15.EUR.maf005.bed", "data/kgp.chr15.EUR.maf005.bim", "data/kgp.chr15.EUR.maf005.fam", "data/kgp.chr15.EUR.maf005.mac1.fam", "data/kgp.chr15.EUR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr15.EUR.bed", "data/kgp.clean.chr15.EUR.bim", "data/kgp.clean.chr15.EUR.fam", "data/kgp.clean.chr15.EUR.maf005.bed", "data/kgp.clean.chr15.EUR.maf005.bim", "data/kgp.clean.chr15.EUR.maf005.fam", "data/kgp.clean.chr15.EUR.maf005.mac1.fam", "data/kgp.clean.chr15.EUR.maf005.mac1.bim"]
  
  
  
@@ -211,18 +211,18 @@ sample size ref: AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
  
 filtering SNPs with maf > 0.05
 dim for SAS file (before maf > 0.05)
-(489, 923706)
+(489, 923701)
 dim for SAS file (after maf > 0.05)
-(489, 208375)
+(489, 208372)
  
 filtering SNPs with mac > 1
-number of SNPs with mac > 1 (will be kept): 208375
+number of SNPs with mac > 1 (will be kept): 208372
 dim for SAS file (after maf > 0.05, mac > 1)
-(489, 208375)
+(489, 208372)
 cf: sample size ref - AFR 661, AMR 347, EAS 504, EUR 503, SAS 489
-cf: dim original - (2504, 923706)
+cf: dim original - (2504, 923701)
  
-SnpData(people: 489, snps: 208375,
+SnpData(people: 489, snps: 208372,
 snp_info: 
  Row │ chromosome  snpid            genetic_distance  position  allele1  allele2
      │ String      String           Float64           Int64     String   String
@@ -245,15 +245,15 @@ person_info:
    5 │ 0          HG02490    0          0          0          -9
    6 │ 0          HG02491    0          0          0          -9
 …,
-srcbed: data/kgp.chr15.SAS.maf005.mac1.bed
-srcbim: data/kgp.chr15.SAS.maf005.mac1.bim
-srcfam: data/kgp.chr15.SAS.maf005.mac1.fam
+srcbed: data/kgp.clean.chr15.SAS.maf005.mac1.bed
+srcbim: data/kgp.clean.chr15.SAS.maf005.mac1.bim
+srcfam: data/kgp.clean.chr15.SAS.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr15.SAS.bed", "data/kgp.chr15.SAS.bim", "data/kgp.chr15.SAS.fam", "data/kgp.chr15.SAS.maf005.bed", "data/kgp.chr15.SAS.maf005.bim", "data/kgp.chr15.SAS.maf005.fam", "data/kgp.chr15.SAS.maf005.mac1.fam", "data/kgp.chr15.SAS.maf005.mac1.bim"]
+Any["data/kgp.clean.chr15.SAS.bed", "data/kgp.clean.chr15.SAS.bim", "data/kgp.clean.chr15.SAS.fam", "data/kgp.clean.chr15.SAS.maf005.bed", "data/kgp.clean.chr15.SAS.maf005.bim", "data/kgp.clean.chr15.SAS.maf005.fam", "data/kgp.clean.chr15.SAS.maf005.mac1.fam", "data/kgp.clean.chr15.SAS.maf005.mac1.bim"]
  
  
-all ancestry were processed for chr15
+all ancestries were processed for chr15

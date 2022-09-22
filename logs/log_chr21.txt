@@ -41,15 +41,15 @@ person_info:
    5 │ 0          HG01885    0          0          0          -9
    6 │ 0          HG01886    0          0          0          -9
 …,
-srcbed: data/kgp.chr21.AFR.maf005.mac1.bed
-srcbim: data/kgp.chr21.AFR.maf005.mac1.bim
-srcfam: data/kgp.chr21.AFR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr21.AFR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr21.AFR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr21.AFR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr21.AFR.bed", "data/kgp.chr21.AFR.bim", "data/kgp.chr21.AFR.fam", "data/kgp.chr21.AFR.maf005.bed", "data/kgp.chr21.AFR.maf005.bim", "data/kgp.chr21.AFR.maf005.fam", "data/kgp.chr21.AFR.maf005.mac1.fam", "data/kgp.chr21.AFR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr21.AFR.bed", "data/kgp.clean.chr21.AFR.bim", "data/kgp.clean.chr21.AFR.fam", "data/kgp.clean.chr21.AFR.maf005.bed", "data/kgp.clean.chr21.AFR.maf005.bim", "data/kgp.clean.chr21.AFR.maf005.fam", "data/kgp.clean.chr21.AFR.maf005.mac1.fam", "data/kgp.clean.chr21.AFR.maf005.mac1.bim"]
  
  
  
@@ -92,15 +92,15 @@ person_info:
    5 │ 0          HG00638    0          0          0          -9
    6 │ 0          HG00640    0          0          0          -9
 …,
-srcbed: data/kgp.chr21.AMR.maf005.mac1.bed
-srcbim: data/kgp.chr21.AMR.maf005.mac1.bim
-srcfam: data/kgp.chr21.AMR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr21.AMR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr21.AMR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr21.AMR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr21.AMR.bed", "data/kgp.chr21.AMR.bim", "data/kgp.chr21.AMR.fam", "data/kgp.chr21.AMR.maf005.bed", "data/kgp.chr21.AMR.maf005.bim", "data/kgp.chr21.AMR.maf005.fam", "data/kgp.chr21.AMR.maf005.mac1.fam", "data/kgp.chr21.AMR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr21.AMR.bed", "data/kgp.clean.chr21.AMR.bim", "data/kgp.clean.chr21.AMR.fam", "data/kgp.clean.chr21.AMR.maf005.bed", "data/kgp.clean.chr21.AMR.maf005.bim", "data/kgp.clean.chr21.AMR.maf005.fam", "data/kgp.clean.chr21.AMR.maf005.mac1.fam", "data/kgp.clean.chr21.AMR.maf005.mac1.bim"]
  
  
  
@@ -143,15 +143,15 @@ person_info:
    5 │ 0          HG00409    0          0          0          -9
    6 │ 0          HG00410    0          0          0          -9
 …,
-srcbed: data/kgp.chr21.EAS.maf005.mac1.bed
-srcbim: data/kgp.chr21.EAS.maf005.mac1.bim
-srcfam: data/kgp.chr21.EAS.maf005.mac1.fam
+srcbed: data/kgp.clean.chr21.EAS.maf005.mac1.bed
+srcbim: data/kgp.clean.chr21.EAS.maf005.mac1.bim
+srcfam: data/kgp.clean.chr21.EAS.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr21.EAS.bed", "data/kgp.chr21.EAS.bim", "data/kgp.chr21.EAS.fam", "data/kgp.chr21.EAS.maf005.bed", "data/kgp.chr21.EAS.maf005.bim", "data/kgp.chr21.EAS.maf005.fam", "data/kgp.chr21.EAS.maf005.mac1.fam", "data/kgp.chr21.EAS.maf005.mac1.bim"]
+Any["data/kgp.clean.chr21.EAS.bed", "data/kgp.clean.chr21.EAS.bim", "data/kgp.clean.chr21.EAS.fam", "data/kgp.clean.chr21.EAS.maf005.bed", "data/kgp.clean.chr21.EAS.maf005.bim", "data/kgp.clean.chr21.EAS.maf005.fam", "data/kgp.clean.chr21.EAS.maf005.mac1.fam", "data/kgp.clean.chr21.EAS.maf005.mac1.bim"]
  
  
  
@@ -194,15 +194,15 @@ person_info:
    5 │ 0          HG00101    0          0          0          -9
    6 │ 0          HG00102    0          0          0          -9
 …,
-srcbed: data/kgp.chr21.EUR.maf005.mac1.bed
-srcbim: data/kgp.chr21.EUR.maf005.mac1.bim
-srcfam: data/kgp.chr21.EUR.maf005.mac1.fam
+srcbed: data/kgp.clean.chr21.EUR.maf005.mac1.bed
+srcbim: data/kgp.clean.chr21.EUR.maf005.mac1.bim
+srcfam: data/kgp.clean.chr21.EUR.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr21.EUR.bed", "data/kgp.chr21.EUR.bim", "data/kgp.chr21.EUR.fam", "data/kgp.chr21.EUR.maf005.bed", "data/kgp.chr21.EUR.maf005.bim", "data/kgp.chr21.EUR.maf005.fam", "data/kgp.chr21.EUR.maf005.mac1.fam", "data/kgp.chr21.EUR.maf005.mac1.bim"]
+Any["data/kgp.clean.chr21.EUR.bed", "data/kgp.clean.chr21.EUR.bim", "data/kgp.clean.chr21.EUR.fam", "data/kgp.clean.chr21.EUR.maf005.bed", "data/kgp.clean.chr21.EUR.maf005.bim", "data/kgp.clean.chr21.EUR.maf005.fam", "data/kgp.clean.chr21.EUR.maf005.mac1.fam", "data/kgp.clean.chr21.EUR.maf005.mac1.bim"]
  
  
  
@@ -245,15 +245,15 @@ person_info:
    5 │ 0          HG02490    0          0          0          -9
    6 │ 0          HG02491    0          0          0          -9
 …,
-srcbed: data/kgp.chr21.SAS.maf005.mac1.bed
-srcbim: data/kgp.chr21.SAS.maf005.mac1.bim
-srcfam: data/kgp.chr21.SAS.maf005.mac1.fam
+srcbed: data/kgp.clean.chr21.SAS.maf005.mac1.bed
+srcbim: data/kgp.clean.chr21.SAS.maf005.mac1.bim
+srcfam: data/kgp.clean.chr21.SAS.maf005.mac1.fam
 )
  
  
 files to be removed: 
 8
-Any["data/kgp.chr21.SAS.bed", "data/kgp.chr21.SAS.bim", "data/kgp.chr21.SAS.fam", "data/kgp.chr21.SAS.maf005.bed", "data/kgp.chr21.SAS.maf005.bim", "data/kgp.chr21.SAS.maf005.fam", "data/kgp.chr21.SAS.maf005.mac1.fam", "data/kgp.chr21.SAS.maf005.mac1.bim"]
+Any["data/kgp.clean.chr21.SAS.bed", "data/kgp.clean.chr21.SAS.bim", "data/kgp.clean.chr21.SAS.fam", "data/kgp.clean.chr21.SAS.maf005.bed", "data/kgp.clean.chr21.SAS.maf005.bim", "data/kgp.clean.chr21.SAS.maf005.fam", "data/kgp.clean.chr21.SAS.maf005.mac1.fam", "data/kgp.clean.chr21.SAS.maf005.mac1.bim"]
  
  
-all ancestry were processed for chr21
+all ancestries were processed for chr21
