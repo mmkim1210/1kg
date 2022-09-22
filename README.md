@@ -2,12 +2,13 @@
 
 This directory stores scripts that prepared LD reference panels by ancestry groups to use for the `GeneticsMakie.jl`. The LD panels were downloaded from the [1000 genomes project (Phase3)](https://www.internationalgenome.org/) website.  
 
-The notation of the ancestry groups is as follows:  
-- AFR: African-American
-- AMR: Admixture-American
+The ancestry notation is as follow:  
+- AFR: African
+- AMR: American
 - EAS: East Asian
 - EUR: European
 - SAS: South Asian
+
 
 ### Short descriptions of the scripts and the logs directory
 
