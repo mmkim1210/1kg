@@ -13,4 +13,3 @@ for ancestry in AFR AMR EAS EUR SAS; do
     echo $num_files moved
     echo " "
 done
-

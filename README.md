@@ -1,14 +1,13 @@
-# 1000 genomes project LD reference panels by ancestry groups
+# 1000 Genomes Project data by ancestry groups
 
-This directory stores scripts that prepared LD reference panels by ancestry groups to use for the `GeneticsMakie.jl`. The LD panels were downloaded from the [1000 genomes project (Phase3)](https://www.internationalgenome.org/) website.  
+This directory stores scripts that prepared LD reference panels by ancestry groups to use for the `GeneticsMakie.jl`. The LD panels were downloaded from the [1000 Genomes Project](https://www.internationalgenome.org/) website.  
 
-The ancestry notation is as follow:  
+The ancestry notation is as follows:  
 - AFR: African
 - AMR: American
 - EAS: East Asian
 - EUR: European
 - SAS: South Asian
-
 
 ### Short descriptions of the scripts and the logs directory
 
