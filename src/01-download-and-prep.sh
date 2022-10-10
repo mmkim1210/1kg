@@ -10,11 +10,11 @@
 #   3. plink: https://www.cog-genomics.org/plink/
 
 # Output:
-#   1. kgp.clean.chr$chr files for each $chr in {1..2} X
+#   1. kgp.bed, kgp.bim, kgp.fam files with all chr1-22 and chrX files merged
 
 ### Create a directory
 dir=/u/project/gandalm/shared/refGenomes/1000genomes
-mkdir -p $dir/chr
+mkdir -p $dir/chrs
 
 ### Download hg37 fasta file
 cd $dir
@@ -25,10 +25,17 @@ gunzip human_g1k_v37.fasta.gz
 ### Downnload vcf files for each chromosome
 cd $dir/chr
 for chrs in {1..22} X; do 
-    wget http://bochet.gcc.biostat.washington.edu/beagle/1000_Genomes_phase3_v5a/b37.vcf/chr$chrs.1kg.phase3.v5a.vcf.gz
+    wget https://bochet.gcc.biostat.washington.edu/beagle/1000_Genomes_phase3_v5a/b37.vcf/chr$chr.1kg.phase3.v5a.vcf.gz
 done
 
 ### Create tabix indices for each vcf file
+# get path to the software
+# bcftools & plink
+. /u/local/Modules/default/init/modules.sh
+module load bcftools/1.11 plink/1.90b624
+# tabix
+tabix=/u/project/gandalm/shared/apps/tabix-0.2.6/tabix
+
 for chr in {1..22} X; do
     # index each vcf file
     tabix -f chr$chr.1kg.phase3.v5a.vcf.gz 
@@ -54,3 +61,9 @@ for chr in {1..22} X; do
     cat kgp.{dups,longindels} | \
     plink --bfile kgp.chr$chr --keep-allele-order --exclude /dev/stdin --make-bed --out kgp.clean.chr$chr
 done
+
+### merge all kgp.clean.chr$chr plink files
+cat kgp.clean.chrX.fam > $dir/chrs/kgp.fam
+cat kgp.clean.chr{{1..22},X}.bim > $dir/chrs/kgp.bim
+(echo -en "\x6C\x1B\x01"; tail -qc +4 kgp.clean.chr{{1..22},X}.bed) > $dir/chrs/kgp.bed
+
