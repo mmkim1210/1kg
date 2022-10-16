@@ -14,7 +14,7 @@
 #   1. kgp.bed, kgp.bim, kgp.fam files 
 
 ### Create a directory
-dir=/u/project/gandalm/shared/refGenomes/1000genomes_GeneticsMakie_chrpos
+dir=/u/project/gandalm/shared/refGenomes/1kg
 mkdir -p $dir/chrs
 
 ### Download hg37 fasta file
@@ -64,8 +64,7 @@ for chr in {1..22} X; do
     $plink --bfile kgp.chr$chr --keep-allele-order --exclude /dev/stdin --make-bed --out kgp.clean.chr$chr
 done
 
-### merge all kgp.clean.chr$chr plink files
+### Merge all kgp.clean.chr$chr plink files
 cat kgp.clean.chrX.fam > $dir/kgp.fam
 cat kgp.clean.chr{{1..22},X}.bim > $dir/kgp.bim
 (echo -en "\x6C\x1B\x01"; tail -qc +4 kgp.clean.chr{{1..22},X}.bed) > $dir/kgp.bed
-

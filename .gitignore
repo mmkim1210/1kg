@@ -5,3 +5,9 @@ data_snparrays
 data_not_cleaned_kgp_used
 1kg_ancestry_ld_panels
 *zip
+Manifest.toml
+Project.toml
+kgp.bed
+kgp.bim
+kgp.fam
+data/
