@@ -60,6 +60,7 @@ for ancestry in ancestries
     SnpArrays.filter(kgp_ancestry, trues(size(kgp_ancestry)[1]), colinds; des = "data/kgp.$(ancestry).maf0.05.geno")
     kgp_ancestry = SnpData("data/kgp.$(ancestry).maf0.05.geno")
     @info "# of samples: $(size(kgp_ancestry)[1]), # of SNPs: $(size(kgp_ancestry)[2])"
+    println("")
 end
 
 for ancestry in ancestries
