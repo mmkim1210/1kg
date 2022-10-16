@@ -5,8 +5,7 @@ this Julia code can be used to prepare LD reference panels by ancestry groups as
 - keep SNPs with polymorphic genotypes (i.e. remove SNPs that are heterozygous for all samples)
 =#
 
-dir = "/Users/minsookim/Downloads/1kg"
-#dir = "/u/project/gandalm/shared/refGenomes/1kg"
+dir = "/u/project/gandalm/shared/refGenomes/1kg"
 cd(dir)
 
 using Pkg
